@@ -1,0 +1,66 @@
+.contenedor-section2 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.contsection2-txt {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.contsection2 {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.cont1 {
+	width: 400px;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.082);
+	height: 500px;
+	margin-bottom: 30px;
+	transition: all 0.5s ease;
+}
+.cont1:hover {
+	transition: all 0.5s ease;
+
+	-webkit-box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.418);
+	-moz-box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.411);
+	box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.425);
+}
+.cont1 img {
+	display: block;
+	margin: 50px auto;
+}
+
+.cont1 h5 {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 30px;
+}
+.cont1 p {
+	text-align: center;
+	padding: 20px;
+}
+
+.cont1 a {
+	background-color: white;
+	display: block;
+	width: 200px;
+	line-height: 50px;
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	border-radius: 20px;
+	text-align: center;
+	margin: 30px auto;
+	transition: all 0.9s ease;
+}
+
+.cont1 a:hover {
+	transition: all 0.5s ease;
+
+	-webkit-box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.418);
+	-moz-box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.411);
+	box-shadow: 0px 3px 15px 2px rgba(0, 0, 0, 0.425);
+}

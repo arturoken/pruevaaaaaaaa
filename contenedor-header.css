@@ -1,0 +1,91 @@
+.contenedor-header {
+	background-color: rgba(0, 0, 0, 0.884);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.596)),
+		url(imagenes/fondo.jpg);
+	height: 800px;
+	width: 100%;
+}
+.barra {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.barra-opciones {
+	align-self: center;
+}
+
+.barra-opciones a {
+	color: white;
+	padding: 6px 30px;
+	line-height: 30px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	border-radius: 20px;
+	transition: background 0.5s ease;
+}
+
+.barra-opciones a:hover {
+	background-color: rgb(255, 187, 0);
+	border-radius: 20px;
+	color: black;
+	transition: background 0.5s ease;
+}
+
+.titulo-barra h1 {
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	margin-left: 10px;
+	align-self: center;
+}
+
+.titulo-barra {
+	display: flex;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.txt-img {
+	justify-content: center;
+	margin-top: 200px;
+}
+
+.img-header img {
+	height: 150px;
+	display: block;
+	margin: auto;
+}
+
+.txt-header h1 {
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	font-family: sans-serif;
+	/* background-color: rgba(255, 255, 255, 0.849);  */
+	text-align: center;
+	font-size: 80px;
+	font-weight: 400;
+	font-family: fantasy;
+}
+.btn {
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+.btn a {
+	text-align: center;
+	border-radius: 20px;
+	font-size: 30px;
+	padding: 5px 30px;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 187, 0);
+	/* display: block;  */
+	width: 200px;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+.btn a:hover {
+	transition: all 0.5s ease;
+	background-color: rgba(255, 187, 0, 0.719);
+}

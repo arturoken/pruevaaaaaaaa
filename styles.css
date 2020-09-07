@@ -1,0 +1,27 @@
+@import url(contenedor-header.css);
+@import url(contenedor-section2.css);
+@import url(footer.css);
+@import url(mediaqueris.css);
+@import url(carrusel.css);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.madre-header {
+	display: flex;
+}
+
+.padre-section {
+	margin-top: 100px;
+}
+
+.txt-padre h3 {
+	font-size: 40px;
+}
+.txt-padre {
+	margin-bottom: 100px;
+	text-align: center;
+}

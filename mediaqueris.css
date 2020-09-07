@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+	/* .barra-opciones {
+		position: absolute;
+		display: flex;
+		margin-top: 740px;
+		margin-left: 450px;
+		width: 350px;
+		height: 800px;
+
+		flex-direction: column;
+		background-color: white;
+	}
+
+	.barra-opciones a {
+		color: black;
+		line-height: 50px;
+		border-radius: 0;
+	}
+	.barra-opciones a:hover {
+		background-color: rgb(255, 187, 0);
+		border-radius: 0px;
+		margin-right: 0;
+		color: black;
+		transition: background 0.5s ease;
+	}
+	.menu-hamburguesa img {
+		display: block;
+	}
+} */
